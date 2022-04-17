@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+img{vertical-align: top;}
+*{margin: 0; padding: 0;}
+body{
+    font-family:'NotoSerifKR';
+    color: #121212;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #fff;
+}
+ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+.clear::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
